@@ -1,6 +1,3 @@
-
--- Mid Course Project (2012-11-30)
-
 USE mavenfuzzyfactory;
 
 
