@@ -77,10 +77,6 @@ User Behavior on Landing Pages:
 */
 
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
 
 -- Landing Page A/B test for gsearch nonbrand campaign, btween the 2012-06-19 and 2012-07-28
 -- Perform a funnel analysis to segment sessions based on landing pages (/home or /lander-1) and track user progression through key pages in the conversion funnel. 
@@ -195,21 +191,9 @@ Total Orders:
 Insight: The higher number of total orders for /lander-1 further highlights its effectiveness in converting visitors into customers.
 Effectiveness of /lander-1:
 
-The 0.88 percentage point difference in conversion rate may seem small, but it represents a 27.7% improvement in relative terms (
-(
-4.06
-−
-3.18
-)
-/
-3.18
-×
-100
-(4.06−3.18)/3.18×100).
+The 0.88 percentage point difference in conversion rate may seem small, but it represents a 27.7% improvement in relative terms.
 Insight: This makes /lander-1 a significantly better choice for driving conversions.
-
 */
-
 
 
 
