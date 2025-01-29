@@ -62,22 +62,6 @@ GROUP BY sl.landing_page;
 
 
 
--- Insights:
-/*Bounce Rate Comparison:
-
-/lander-1 has a lower bounce rate (53.24%) compared to /home (58.34%), suggesting that /lander-1 performs slightly better at retaining users.
-While the difference in bounce rate (around 5 percentage points) might seem small, it could be significant depending on the business's goals (e.g., reducing user drop-off).
-
-Traffic Distribution:
-The test seems to have a balanced 50/50 split between /home and /lander-1, with a slight variance in session count (2261 vs. 2316).
-This is a good validation that the A/B test setup worked as intended.
-
-User Behavior on Landing Pages:
-/lander-1 appears to engage users better, as a smaller proportion of its visitors bounced compared to /home.
-*/
-
-
-
 -- Landing Page A/B test for gsearch nonbrand campaign, btween the 2012-06-19 and 2012-07-28
 -- Perform a funnel analysis to segment sessions based on landing pages (/home or /lander-1) and track user progression through key pages in the conversion funnel. 
 
@@ -153,20 +137,6 @@ from funnels_for_landing_page_test f;
 
 
 
--- Insights from the Funnel Analysis:
-/*
-Landing Page CTR:
-/lander-1 has a higher landing page CTR (46.76%) compared to /home (41.66%). This indicates that users landing on /lander-1 are more likely to proceed to the next stage (product page).
-Insight: The design or content on /lander-1 might be more effective at engaging users and encouraging further exploration.
-
-In the product, Mr. Fuzzy, cart, and shipping pages, the differences in performance between the funnels are minimal, suggesting both landing pages have a comparable impact on user progression through these stages.
-
-Billing Page CTR:
-/lander-1 has a higher billing page CTR (47.72%) compared to /home (42.86%), indicating that users from /lander-1 are more likely to create an order at the billing stage.
-Insight: This suggests that /lander-1 may attract more high-intent users who are ready to complete their purchases, making it more effective at driving conversions at the critical final stage of the funnel.
-*/
-
-
 
 -- Conversion Rate from sessions to orders for landing page A/B testing
 select 
@@ -175,25 +145,6 @@ select
     f.to_thankyou AS total_orders,
     round((f.to_thankyou / f.sessions) * 100, 2) as conversion_sessions_to_orders
 from funnels_for_landing_page_test f;
-
-
--- insights: 
-/*Insights from the Conversion Rate Analysis
-Conversion Rate Comparison:
-
-/lander-1 outperforms /home in conversion rate:
-/lander-1: 4.06%
-/home: 3.18%
-Insight: This indicates that sessions starting on /lander-1 are more likely to result in orders compared to /home.
-Total Orders:
-
-/lander-1 generated 94 orders, while /home generated 72 orders, despite both landing pages having similar session counts.
-Insight: The higher number of total orders for /lander-1 further highlights its effectiveness in converting visitors into customers.
-Effectiveness of /lander-1:
-
-The 0.88 percentage point difference in conversion rate may seem small, but it represents a 27.7% improvement in relative terms.
-Insight: This makes /lander-1 a significantly better choice for driving conversions.
-*/
 
 
 
