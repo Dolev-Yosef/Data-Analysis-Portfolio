@@ -181,8 +181,6 @@ The **A/B Testing for Website Conversions** project evaluates the performance of
 ---
 
 ### Next Steps
-
-### Next Steps
 1. **Adopt `/lander-1` and `/billing-2` as default pages** to maximize conversions and revenue.
 2. **Analyze key elements of success** (e.g., layout, content, CTAs) to identify what drives user engagement.
 3. **Expand A/B testing** to optimize further and address performance gaps, such as mobile conversions and branded campaigns.
