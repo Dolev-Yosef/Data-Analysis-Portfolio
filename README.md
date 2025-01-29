@@ -16,7 +16,7 @@ This project focuses on analyzing website performance and optimizing conversions
 - **SQL**: Core analysis and data extraction.
 - **Tableau**: Visualization of insights and trends.
 
-## Dynamic Website Traffic Analysis
+[## Dynamic Website Traffic Analysis](Dynamic Website Traffic Analysis/Dynamic Website Traffic Analysis.sql) 
 
 The **Dynamic Website Traffic Analysis** project aims to uncover actionable insights into user behavior, traffic sources, and conversion patterns to optimize website performance. Using Tableau for visualization, the analysis reveals key trends and highlights opportunities for improving traffic engagement and conversions.
 
