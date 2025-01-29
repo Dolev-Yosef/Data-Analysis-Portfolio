@@ -64,3 +64,83 @@ The Tableau dashboard serves as the visual representation of the insights derive
 
 ## Summary
 This analysis highlights the dominance of nonbrand campaigns in driving sessions, the importance of desktop optimizations for higher conversions, and the potential to grow branded campaigns and mobile performance. The insights empower data-driven decisions to improve website traffic and conversions.
+
+---
+
+## [A/B Testing for Website Conversions](https://github.com/Dolev-Yosef/Website-Optimization-Traffic-Insights-and-A-B-Testing/tree/main/AB%20Testing%20for%20Website%20Conversions)
+
+The **A/B Testing for Website Conversions** project evaluates the performance of two key elements of the user journey: landing pages and billing pages. By analyzing user behavior and conversion rates across different test variations, this project identifies opportunities for optimization and provides actionable insights to improve the website's effectiveness.
+
+### Part 1: Landing Page A/B Test
+
+#### Overview
+- **Objective**: Compare the performance of the default landing page (`/home`) with the alternative landing page (`/lander-1`) for the **gsearch nonbrand campaign**.
+- **Test Period**: June 19, 2012 – July 28, 2012.
+- **Traffic Split**: 50/50 between `/home` and `/lander-1`.
+
+---
+
+#### Key Metrics
+
+1. **Bounce Rate**:
+   - `/lander-1` has a lower bounce rate (**53.24%**) compared to `/home` (**58.34%**), indicating better user retention on the alternative landing page.
+
+| Landing Page | Total Sessions | Bounced Sessions | Bounce Rate (%) |
+|--------------|----------------|-------------------|-----------------|
+| `/home`      | 2261           | 1319             | 58.34           |
+| `/lander-1`  | 2316           | 1233             | 53.24           |
+
+---
+
+2. **Click-Through Rates (CTR) by Funnel Stage**:
+   - `/lander-1` has a higher **landing-to-product CTR** (46.76%) compared to `/home` (41.66%), indicating that users landing on `/lander-1` are more likely to proceed to the product page.
+   - For most intermediate stages (product, cart, and shipping), the performance differences between `/home` and `/lander-1` are minimal, suggesting comparable user progression.
+   - **Billing-to-Thank-You CTR**: `/lander-1` (47.72%) significantly outperforms `/home` (42.86%), showing higher effectiveness at driving orders in the final stage.
+
+| Landing Page | Landing to Product (%) | Product to Mr. Fuzzy (%) | Mr. Fuzzy to Cart (%) | Cart to Shipping (%) | Shipping to Billing (%) | Billing to Thank-You (%) |
+|--------------|-------------------------|--------------------------|-----------------------|-----------------------|--------------------------|---------------------------|
+| `/home`      | 41.66                  | 72.61                   | 43.27                | 67.57                | 84.00                   | 42.86                    |
+| `/lander-1`  | 46.76                  | 71.28                   | 45.08                | 66.38                | 85.28                   | 47.72                    |
+
+**Insight**: The improved engagement on `/lander-1` at critical stages (landing-to-product and billing-to-thank-you) highlights its effectiveness in converting users through the funnel.
+
+---
+
+3. **Conversion Rate: Sessions to Orders**:
+   - `/lander-1` has a higher overall conversion rate (**4.06%**) compared to `/home` (**3.18%**), representing a **27.7% relative improvement** in conversion performance.
+   - Total orders generated from `/lander-1` are **94**, compared to **72** from `/home`.
+
+| Landing Page | Total Sessions | Total Orders | Conversion Rate (%) |
+|--------------|----------------|--------------|----------------------|
+| `/home`      | 2261           | 72           | 3.18                |
+| `/lander-1`  | 2316           | 94           | 4.06                |
+
+**Insight**: Despite a similar number of sessions, `/lander-1` consistently converts more users, making it the superior option for maximizing revenue.
+
+---
+
+### Summary of Insights
+
+1. **Bounce Rate**:
+   - `/lander-1` shows better user retention with a **5% lower bounce rate**, indicating a more engaging design or content.
+
+2. **Funnel Performance**:
+   - Users landing on `/lander-1` are more likely to progress through the conversion funnel, particularly in the initial stage (landing-to-product) and the final stage (billing-to-thank-you).
+
+3. **Conversion Rate**:
+   - `/lander-1` outperforms `/home` with a **higher conversion rate** and **greater total orders**, making it the recommended landing page for similar campaigns.
+
+4. **Effectiveness of /lander-1**:
+   - The 0.88% higher conversion rate translates to a **27.7% improvement**, highlighting the significant impact of the alternative landing page on driving revenue.
+
+---
+
+### Next Steps
+- Adopt `/lander-1` as the default landing page for the **gsearch nonbrand campaign**.
+- Conduct further testing to optimize the elements contributing to `/lander-1`'s success (e.g., layout, call-to-action placement, or content).
+- Analyze additional campaign variations to identify opportunities for even higher performance.
+
+
+
+
+
